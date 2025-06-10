@@ -1,0 +1,28 @@
+{
+  "name": "placement_talk_project",
+  "version": "1.0.0",
+  "description": "MERN application for Placement Talk project",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShubhamDeshmuk-h/Placement_talk.git"
+  },
+  "keywords": [],
+  "author": "Shubham Deshmukh",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ShubhamDeshmuk-h/Placement_talk/issues"
+  },
+  "homepage": "https://github.com/ShubhamDeshmuk-h/Placement_talk#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.10"
+  }
+}
