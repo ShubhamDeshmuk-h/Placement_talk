@@ -4,7 +4,9 @@
   "description": "MERN application for Placement Talk project",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon"
+    "server": "nodemon server",
+    "client": "npm start --prefix Placement_talk",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/ShubhamDeshmuk-h/Placement_talk#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0",
     "mongodb": "^6.17.0"
   },

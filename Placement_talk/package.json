@@ -14,6 +14,10 @@
     "web-vitals": "^2.1.4",
     "whatwg-fetch": "^3.6.20"
   },
+  "options": {
+    "allowedHosts": ["localhost", ".localhost"],
+    "proxy": "https://localhost:8000/"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
